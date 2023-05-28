@@ -1,0 +1,189 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+.list {
+  list-style: none;
+}
+
+
+.container {
+  min-width: 428px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.header {
+  background-color: black;
+  border-radius: 0px;
+}
+
+.nava {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.logo-link {
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 35px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-decoration: none;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.block-link {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.block {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  margin-right: 56px;
+}
+
+.button-header {
+  margin-right: 50px;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 14px;
+  height: 42px;
+  width: 155px;
+  cursor: pointer;
+}
+
+.hero {
+  height: 600px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-image: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%),
+    url(./img/hero/IMAGE.jpg);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text-hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  padding-top: 300px;
+}
+
+.zaglav-hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+  margin-top: 1px;
+}
+
+.paragraf-hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+  width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-info {
+  background-color: #000000;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.What-we-do {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.info-paragraf {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.3;
+  color: #C0C0C0;
+  text-align: center;
+}
+
+
+.cartinki-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 0;
+  padding-top: 42px;
+}
+
+.atom {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.atom-paragraf {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #C0C0C0;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 501px;
+}
+
+.atomy {
+  position: absolute;
+  margin-top: 420px;
+}
